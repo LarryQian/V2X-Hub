@@ -30,6 +30,7 @@ do
             mkdir coverage
 	        gcovr -k -r .
             mv *.gcov coverage
+	    cp -r coverage /home/V2X-Hub/
             cd ../..
         else
             echo "no tests built"
@@ -49,6 +50,7 @@ do
             mkdir coverage
             gcovr -k -r .
             mv *.gcov coverage
+	    cp -r coverage /home/V2X-Hub/
             cd ../..
         else
             echo "no tests built"
